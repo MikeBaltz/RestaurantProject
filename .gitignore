@@ -1,0 +1,23 @@
+# Node modules
+node_modules/
+
+# Expo
+.expo/
+.expo-shared/
+
+# Android / iOS builds
+*.apk
+*.aab
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+
+# Env files
+.env
+.env.*
+
+# Mac / Windows / VSCode
+.DS_Store
+.vscode/
+Thumbs.db
