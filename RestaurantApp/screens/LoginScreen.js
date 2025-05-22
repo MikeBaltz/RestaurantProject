@@ -10,7 +10,7 @@ export default function LoginScreen({ navigation }) {
 
   const handleSubmit = async () => {
     const endpoint = mode === 'login'
-      ? 'http://192.168.1.26:3000/login'
+      ? 'http://localhost/login'
       : 'http://localhost:3000/register';
   
     const payload =
