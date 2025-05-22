@@ -25,7 +25,7 @@ export default function ReservationScreen({ route }) {
         return;
       }
 
-      const response = await fetch('http://192.168.1.26:3000/reservations', {
+      const response = await fetch('http://localhost:3000/reservations', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

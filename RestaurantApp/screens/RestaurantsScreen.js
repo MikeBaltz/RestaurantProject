@@ -41,7 +41,7 @@ export default function RestaurantsScreen() {
   const fetchRestaurants = async () => {
     try {
       const token = await AsyncStorage.getItem('token');
-      const response = await fetch('http://192.168.1.26:3000/restaurants', {
+      const response = await fetch('http://localhost:3000/restaurants', {
         headers: {
           Authorization: `Bearer ${token}`,
         },
